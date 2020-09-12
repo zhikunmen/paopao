@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GuaidViewExml" width="750" height="1334" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:tween="egret.tween.*">
+	<w:Declarations>
+	</w:Declarations>
+	<e:Group x="68" y="206">
+		<e:Image source="aaa2_png" scale9Grid="174,72,22,20" width="614" x="0" y="0"/>
+		<e:Image id="image" source="aaa1_png" y="386.5" x="275"/>
+		<e:Label text="消除泡泡：按住左右滑动即可瞄准，3个同色即可爆破。" x="34" y="24" anchorOffsetX="0" width="542" anchorOffsetY="0" height="119" textColor="0x1e316a" verticalAlign="middle" lineSpacing="20"/>
+	</e:Group>
+</e:Skin>

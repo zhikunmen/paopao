@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="LobbyExml" width="750" height="1334" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" xmlns:tween="egret.tween.*">
+	<w:Config id="168ead6d670"/>
+	<w:Declarations>
+		<tween:TweenGroup id="g">
+		</tween:TweenGroup>
+	</w:Declarations>
+	<e:Image source="bg_jpg" horizontalCenter="0" verticalCenter="0" locked="true"/>
+	<e:Group horizontalCenter="0" bottom="16" locked="true">
+		<e:Image source="xiaowaikuang_png" x="0" y="0" anchorOffsetY="0" height="195.55"/>
+		<e:Group x="12.59" y="7.81" scrollEnabled="true" width="618" touchEnabled="true" touchChildren="true" scrollH="1" anchorOffsetY="0" height="186.18">
+			<e:Scroller id="m_scroller" width="624.24" height="190.3" x="-2" y="-2" anchorOffsetX="0" anchorOffsetY="0" scrollPolicyH="on" scrollPolicyV="off" bounces="true">
+				<e:Group id="m_carousel" anchorOffsetX="0" width="618" anchorOffsetY="0" height="251.52">
+					<ns1:OtherGameItem id="m_hudao_2" width="201.82" height="223.03" x="-1040" y="0" anchorOffsetX="0" anchorOffsetY="0" skinName="OtherGameExml" scaleX="0.7" scaleY="0.7"/>
+					<e:layout>
+						<e:HorizontalLayout/>
+					</e:layout>
+				</e:Group>
+			</e:Scroller>
+			<e:layout>
+				<e:HorizontalLayout/>
+			</e:layout>
+		</e:Group>
+	</e:Group>
+	<e:Group id="m_start_btn" horizontalCenter="0.5" y="662" anchorOffsetX="190.67" anchorOffsetY="60">
+		<e:Image source="btn_blue_png" x="0" y="0"/>
+		<e:Image source="kaishiyouxi_png" x="54" y="37"/>
+	</e:Group>
+	<e:Image id="m_sound_btn" source="yinxiao_png" x="215.5" y="906" anchorOffsetX="42" anchorOffsetY="48"/>
+	<e:Image id="m_rank_btn" source="paihang_png" x="540.5" y="905" anchorOffsetX="44" anchorOffsetY="46"/>
+	<e:Image id="m_share_btn" source="fenxiang_png" x="378.5" y="906" anchorOffsetX="44" anchorOffsetY="48"/>
+	<e:Group horizontalCenter="0" bottom="308">
+	</e:Group>
+	<e:Image top="280" horizontalCenter="0.5" source="LOGO_png"/>
+	<e:Group id="m_redball_btn" x="674" y="595" anchorOffsetY="72" height="135" anchorOffsetX="70">
+		<e:Image source="red1_png" y="66.25" anchorOffsetX="56" width="113.56" anchorOffsetY="56" height="110.49" x="79.81" touchEnabled="false"/>
+		<e:Label text="领奖" x="45" y="93.66" strokeColor="0x0556a9" stroke="1" anchorOffsetY="0" height="28.67" touchEnabled="false"/>
+	</e:Group>
+	<e:Group id="group" anchorOffsetX="9.73" anchorOffsetY="-0.01" right="147" top="0" width="19.16" height="18.12">
+		<e:Image source="ert13_png" x="5.04" y="1" anchorOffsetX="0" width="13.03" anchorOffsetY="0" height="118.46"/>
+		<e:Image source="rt14_png" x="-39.36" y="86.92"/>
+	</e:Group>
+	<e:Group x="616" y="685">
+		<e:Label id="m_dd" text="Label" x="60" y="57" visible="false"/>
+		<e:Image source="lucl7.2_png" y="97" x="14"/>
+	</e:Group>
+	<e:Group id="m_groupbtn" x="377" y="781" anchorOffsetX="91" anchorOffsetY="22">
+		<e:Image source="rank27.2_png" x="0" y="0"/>
+		<e:Rect width="180" height="4" x="0.34" y="40.76" anchorOffsetX="0" anchorOffsetY="0" fillColor="0xffffff"/>
+	</e:Group>
+	<e:Group id="m_sevenday_btn" x="618.69" y="866.46">
+		<e:Image source="7rihaoli_png" y="59.06" x="66" anchorOffsetX="56" anchorOffsetY="66"/>
+		<e:Image source="qrhl_png" x="0" y="108.46"/>
+	</e:Group>
+	<e:Group id="m_mall_btn" x="10" y="746.5">
+		<e:Image y="59.06" anchorOffsetX="56" anchorOffsetY="66" source="shangchengtubiao_png" horizontalCenter="0"/>
+		<e:Image y="108.46" source="shangchengtitle_png" horizontalCenter="0"/>
+	</e:Group>
+	<ns1:OnlineAwards id="m_online_awards_btn" x="65.99" y="1000.45" anchorOffsetX="53.03" anchorOffsetY="89.39" skinName="OnlineAwardsExml"/>
+	<e:Group id="m_coin_container" x="42.96" y="24">
+		<e:Image source="jinbikuan_png" x="0" y="4" scale9Grid="79,6,5,36" anchorOffsetX="0" width="205"/>
+		<e:Image source="jinbi_png" x="3" y="2"/>
+		<e:Label id="m_coin0" text="0" y="0" size="40" x="64.04" anchorOffsetX="0" width="274" anchorOffsetY="0" height="52" verticalAlign="middle"/>
+	</e:Group>
+</e:Skin>

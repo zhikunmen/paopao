@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="OtherGameExml" width="196" height="259" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group x="1" y="199">
+		<e:Image id="m_index_0" source="lanzi_png" x="0" y="0" locked="true"/>
+		<e:Image id="m_index_5" source="lanzi_png" x="0" y="0" locked="true" visible="false"/>
+		<e:Image id="m_index_1" source="lanse_png" x="0" y="0" locked="true" visible="false"/>
+		<e:Image id="m_index_2" source="huangse_png" x="0" y="0" locked="true" visible="false"/>
+		<e:Image id="m_index_3" source="huanghong_png" x="0" y="0" locked="true" visible="false"/>
+		<e:Image id="m_index_4" source="hongzi_png" x="0" y="0" locked="true" visible="false"/>
+		<e:Label id="m_label_playercount" text="200万人在玩" x="3" y="30" anchorOffsetX="0" width="190" anchorOffsetY="0" height="27" size="24" verticalAlign="middle" textAlign="center"/>
+		<e:Label id="m_label" text="我是中国人" x="4" y="-1" anchorOffsetX="0" width="190" anchorOffsetY="0" height="27" size="24" verticalAlign="middle" textAlign="center"/>
+	</e:Group>
+	<e:Image id="m_container" width="196" height="196" y="0" horizontalCenter="0"/>
+</e:Skin>

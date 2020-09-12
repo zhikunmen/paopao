@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="Carousel" width="618" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" height="600">
+	<e:Group id="m_container" x="0" y="0" height="500" anchorOffsetX="0" width="618" touchChildren="true" touchEnabled="true" touchThrough="false" scaleX="1">
+		<e:Image x="0" y="0" height="500" scaleX="1" scaleY="1" source="game_guanggao1_png"/>
+		<e:Image x="0" y="0" height="500" scaleX="1" scaleY="1" source="game_guanggao2_png"/>
+		<e:Image x="10" y="10" height="500" scaleX="1" scaleY="1" source="game_guanggao1_png"/>
+		<e:Image x="20" y="20" height="500" scaleX="1" scaleY="1" source="game_guanggao2_png"/>
+		<e:Image x="20" y="20" height="500" scaleX="1" scaleY="1" source="game_guanggao1_png"/>
+		<e:Image x="30" y="30" height="500" scaleX="1" scaleY="1" source="game_guanggao2_png"/>
+		<e:layout>
+		<e:HorizontalLayout gap="0"/>
+		</e:layout>
+	</e:Group>
+	<e:Rect id="m_mask" width="618" height="504" x="0" y="0" scaleX="1" scaleY="1" anchorOffsetY="0" anchorOffsetX="0"/>
+	<e:Group id="m_tip_container" width="200" height="24" anchorOffsetY="0" touchChildren="false" touchEnabled="false" touchThrough="true" bottom="24" horizontalCenter="0">
+		<e:layout>
+		<e:HorizontalLayout horizontalAlign="center" gap="14"/>
+		</e:layout>
+		<e:Image x="42" y="11" source="game_guanggao_xuanzhong_png"/>
+		<e:Image x="81" y="3" source="game_guanggao_weizhong_png"/>
+	</e:Group>
+</e:Skin>

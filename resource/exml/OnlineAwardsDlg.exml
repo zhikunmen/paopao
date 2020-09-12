@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="OnlineAwardsDlg" width="755" height="1330" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group x="30.39" y="293.89">
+		<e:Image source="7beijing_png" x="0" y="0" scaleX="1" scaleY="1" scale9Grid="57,140,6,7" anchorOffsetX="0" width="694" anchorOffsetY="0" height="488" rotation="359.98"/>
+		<e:Label text="日常收益" x="192.08" y="2.79" anchorOffsetX="0" width="310" anchorOffsetY="0" height="92.85" textAlign="center" bold="true" textColor="0xFFFFFF" size="50" verticalAlign="middle"/>
+		<e:Label text="日常收益可领取奖励" y="131.72" size="40" textColor="0x365b7f" horizontalCenter="0.5"/>
+		<e:Label id="m_count" text="1000" y="214" size="60" textColor="0x365B7F" horizontalCenter="-59" textAlign="right" anchorOffsetX="0" width="193.09"/>
+		<e:Image source="jinbi_png" x="403.39" y="217.04"/>
+		<e:Group id="m_normalget_btn" x="64.63" y="326.82">
+			<e:Image source="btn_green_png" x="0" y="0" anchorOffsetX="0" width="254.91" anchorOffsetY="0" height="88.58"/>
+			<e:Image source="putonglingqu_png" x="44.46" y="22.29"/>
+		</e:Group>
+		<e:Group id="m_3getBtn" x="370.36" y="328.36">
+			<e:Image source="btn_blue_png" x="0" y="0" width="254.91" height="88.58"/>
+			<e:Image source="3beilingqu_png" x="75.03" y="19.25"/>
+			<e:Image source="prop_video_icon_png" x="29.99" y="20.75"/>
+		</e:Group>
+	</e:Group>
+	<e:Label id="m_close" text="返回" x="318.93" y="823.76" size="40"/>
+</e:Skin>

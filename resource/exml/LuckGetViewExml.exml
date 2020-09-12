@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="LuckGetViewExml" width="755" height="1334" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="lucl10_png" x="201.5" y="187.33"/>
+	<e:Image id="m_add2" source="lucl12.2_png" y="660.83" anchorOffsetX="58" anchorOffsetY="40" x="378"/>
+	<e:Image id="m_add1" source="lucl12_png" y="660.83" anchorOffsetX="47" anchorOffsetY="39.5" x="378"/>
+	<e:Label id="m_close1" text="不了，谢谢" x="291" y="974"/>
+	<e:Image id="m_prop" source="prop_rainbow_png" y="460" horizontalCenter="0"/>
+	<e:Group id="m_ad_pos" width="618.18" height="81.82" x="63.86" y="1018.25" anchorOffsetX="0" anchorOffsetY="0"/>
+	<e:Label id="m_prop_name" text="魔法球" y="550" anchorOffsetX="0" width="386" anchorOffsetY="0" height="50" textAlign="center" verticalAlign="middle" stroke="3" strokeColor="0x386bb0" size="36" horizontalCenter="0"/>
+	<e:Label id="m_desc" text="魔法球" y="296.67" anchorOffsetX="0" width="544.67" anchorOffsetY="0" height="58" textAlign="center" verticalAlign="middle" stroke="3" strokeColor="0x386BB0" size="36" horizontalCenter="0"/>
+	<e:Group id="m_video_get" x="201" y="750">
+		<e:Image source="btn_green_png" x="0" y="0"/>
+		<e:Image source="sblq_png" horizontalCenter="0" verticalCenter="0"/>
+	</e:Group>
+</e:Skin>

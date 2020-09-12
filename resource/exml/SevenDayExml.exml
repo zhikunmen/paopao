@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="SevenDayExml" width="755" height="1130" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<e:Group anchorOffsetY="0" height="1014.68" horizontalCenter="0" top="69">
+		<e:Image source="7beijing_png" x="1.09" y="0" scaleX="1" scaleY="1" scale9Grid="57,140,6,7" anchorOffsetX="0" width="694" anchorOffsetY="0" height="982" rotation="359.98"/>
+		<e:Group width="633.33" height="790.91" x="32.91" y="168" anchorOffsetX="0" anchorOffsetY="0">
+			<ns1:SevendayItem id="m_item0" width="100%" height="151.91" x="0" y="0" skinName="SevendayItemExml" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1"/>
+			<ns1:SevendayItem id="m_item1" width="100%" height="151.91" x="0" y="0" skinName="SevendayItemExml" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1"/>
+			<ns1:SevendayItem id="m_item2" width="100%" height="151.91" x="10" y="10" skinName="SevendayItemExml" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1"/>
+			<ns1:SevendayItem id="m_item3" width="100%" height="151.91" x="20" y="20" skinName="SevendayItemExml" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1"/>
+			<ns1:SevendayItem id="m_item4" width="100%" height="151.91" x="30" y="30" skinName="SevendayItemExml" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1"/>
+			<e:layout>
+				<e:VerticalLayout/>
+			</e:layout>
+		</e:Group>
+		<e:Label id="m_close" text="返回" y="1008" horizontalCenter="0" x="273" scaleX="1" scaleY="1"/>
+		<e:Label text="玩游戏做任务，得金币" x="132" y="106" anchorOffsetX="0" width="434" anchorOffsetY="0" height="58" verticalAlign="middle" textAlign="center" textColor="0x135390" bold="true"/>
+		<e:Group y="7.5" anchorOffsetX="0" width="461" horizontalCenter="0">
+			<e:Label text="新人七日豪礼—第" x="0" y="18.5" anchorOffsetX="0" width="310" anchorOffsetY="0" height="58" verticalAlign="middle" textAlign="right" bold="true" textColor="0xffffff" size="36"/>
+			<e:Image source="rili_png" x="320" y="0"/>
+			<e:Label id="m_day" text="2" x="348" y="29" textColor="0xff583d" size="55" bold="true"/>
+			<e:Label text="天" x="413" y="19.5" anchorOffsetX="0" width="48" anchorOffsetY="0" height="58" verticalAlign="middle" textAlign="left" bold="true" textColor="0xFFFFFF" size="36"/>
+		</e:Group>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GameOverExml" width="750" height="1334" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+
+
+
+
+
+
+
+	<e:Group id="draw_group" y="195.24" horizontalCenter="0">
+		<e:Image source="winbg_png" y="314.15" horizontalCenter="0"/>
+		<e:Image source="jifenwezi_png" y="435.36" horizontalCenter="0.5"/>
+		<e:Image source="gamevoershuzik_png" y="525.15" horizontalCenter="1.5"/>
+		<e:Image source="gameoverjifen_png" y="437.86" horizontalCenter="-0.5" rotation="359.6"/>
+		<e:Image source="drawtitle_png" y="0" horizontalCenter="0"/>
+		<e:Image source="drawtext_png" y="314.15" horizontalCenter="0"/>
+		<e:Image source="aa_png" y="640.76" horizontalCenter="0"/>
+	</e:Group>
+	<e:Group id="lose_group" y="186.01" horizontalCenter="0">
+		<e:Image source="failetextbg_png" y="318.24" horizontalCenter="0"/>
+		<e:Image source="jifenwezi_png" y="438.5" horizontalCenter="0.5"/>
+		<e:Image source="gamevoershuzik_png" y="533.88" horizontalCenter="0"/>
+		<e:Image source="gameoverjifen_png" y="440" horizontalCenter="0.5"/>
+		<e:Image source="fail_face_png" y="344.99" anchorOffsetX="128" anchorOffsetY="-302" horizontalCenter="1.5"/>
+		<e:Image source="failetext1_png" y="0" horizontalCenter="0"/>
+		<e:Image source="failetext_png" y="314.24" horizontalCenter="0"/>
+	</e:Group>
+	<e:Group id="win_group" y="181.8" horizontalCenter="0">
+
+		<e:Image source="drawbg_png" y="327.88" horizontalCenter="0"/>
+		<e:Image source="wintitle_png" y="0" horizontalCenter="0"/>
+		<e:Image source="winface_png" y="667" horizontalCenter="0"/>
+		<e:Image source="jifenwezi_png" y="442.5" horizontalCenter="0"/>
+
+		<e:Image source="gameoverjifen_png" y="444" horizontalCenter="0.5"/>
+		<e:Image source="wintext_png" y="309.06" horizontalCenter="0"/>
+		<e:Image source="gamevoershuzik_png" y="539.88" horizontalCenter="0"/>
+	</e:Group>
+	<e:BitmapLabel id="m_score_txt" width="407.88" height="84.6" y="739.05" anchorOffsetX="0" anchorOffsetY="0" text="122" textAlign="center" font="gameover_font_fnt" verticalAlign="center" letterSpacing="5" horizontalCenter="0"/>nchorOffsetY="0" height="-247.27"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</e:Skin>

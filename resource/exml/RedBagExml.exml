@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RedBagExml" width="750" height="1334" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:tween="egret.tween.*">
+	<w:Declarations>
+		<tween:TweenGroup id="g">
+			<tween:TweenItem target="{image}">
+				<tween:Set>
+					<tween:props>
+						<e:Object scaleX="{0.3}" scaleY="{0.2}" alpha="{0.2}" y="{680}"/>
+					</tween:props>
+				</tween:Set>
+				<tween:To duration="50">
+					<tween:props>
+						<e:Object scaleX="{0.59}" scaleY="{0.91}" y="{620}" alpha="{1}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="150">
+					<tween:props>
+						<e:Object alpha="{1}" scaleX="{0.7}" scaleY="{1.2}" y="{580}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="150">
+					<tween:props>
+						<e:Object scaleX="{1.2}" scaleY="{0.8}" y="{670}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="150">
+					<tween:props>
+						<e:Object scaleX="{0.95}" scaleY="{1}" y="{665}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="200">
+					<tween:props>
+						<e:Object scaleX="{1.1}" scaleY="{0.95}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="300">
+					<tween:props>
+						<e:Object scaleX="{1}" scaleY="{1}"/>
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+		</tween:TweenGroup>
+	</w:Declarations>
+	<e:Group id="m_btn" x="376" y="962.5" anchorOffsetX="190" anchorOffsetY="60">
+		<e:Image x="0" y="0" source="btn_green_png"/>
+		<e:Image source="red6_png" horizontalCenter="0" verticalCenter="-7.5"/>
+	</e:Group>
+	<e:Label text="福券可以兑换丰富实物奖励" x="120" y="760" anchorOffsetX="0" width="534" anchorOffsetY="0" height="50" textColor="0xffffff" size="36" stroke="3" strokeColor="0x386bb0" verticalAlign="middle" textAlign="center"/>
+	<e:Label id="m_type" text="视频领取" y="814" anchorOffsetX="0" width="254" anchorOffsetY="0" height="58" textColor="0xFFFFFF" size="36" stroke="3" strokeColor="0x386BB0" verticalAlign="middle" textAlign="center" horizontalCenter="0"/>
+	<e:Image id="m_pass_btn" source="red8_png" top="40" left="19" anchorOffsetX="49" anchorOffsetY="49"/>
+</e:Skin>

@@ -1,0 +1,10 @@
+{
+"package": "com.company.unit.h5.minigame",
+"name": "paopaolong",
+"icon": "/res/image/icon.png",
+"versionName": "1.0",    
+"versionCode": 1,
+"orientation": "portrait",
+"category":1,
+"battleType":1
+}

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="PropBtnExml" width="93" height="93" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="m_prop_img" source="prop_rainbow_png" horizontalCenter="0" verticalCenter="0"/>
+	<e:Image source="WechatIMG314_png" x="4" y="4"/>
+	<e:Group id="m_prop_count_container" x="72" y="70.5" anchorOffsetX="17" anchorOffsetY="19.5">
+		<e:Image source="WechatIMG315_png" x="0" y="0"/>
+		<e:BitmapLabel id="m_prop_count" width="27.2" height="20" x="3.4" y="8" font="propnum_fnt" text="1" textAlign="center" anchorOffsetX="0"/>
+	</e:Group>
+
+	<e:Image id="m_lock" source="prop_lock_png" x="32.5" y="28" visible="false"/>
+
+</e:Skin>

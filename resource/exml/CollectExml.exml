@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="CollectExml" width="750" height="1334" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:tween="egret.tween.*">
+	<w:Declarations>
+		<tween:TweenGroup id="g1">
+			<tween:TweenItem target="{image}">
+				<tween:To duration="500">
+					<tween:props>
+						<e:Object scaleX="{0.9}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="500">
+					<tween:props>
+						<e:Object scaleX="{1}"/>
+					</tween:props>
+				</tween:To>
+                <tween:props>
+         			<e:Object loop="true"/>
+   				</tween:props>
+			</tween:TweenItem>
+		</tween:TweenGroup>
+	</w:Declarations>
+	<e:Group horizontalCenter="0" top="70">
+		<e:Image source="xxxx25_png" scale9Grid="176,74,11,8" anchorOffsetX="0" width="853.83" anchorOffsetY="0" height="981.97" scaleX="0.85" x="0" y="108"/>
+		<e:Image source="fgd11_png" x="91" y="1095.97"/>
+		<e:Image source="asd2_png" x="87.53" y="0"/>
+		<e:Image source="asd_jpg" x="413.5" y="678.97"/>
+		<e:Image source="ada_jpg" x="29.38" y="141"/>
+		<e:Image source="aa3_png" x="84" y="918.97"/>
+		<e:Image source="2d4_png" x="199" y="804.21"/>
+		<e:Image source="aa3_png" x="65" y="664.21"/>
+		<e:Image source="2d4_png" x="244.92" y="559.46" rotation="69.05"/>
+		<e:Image source="aa3_png" x="394" y="527.99"/>
+		<e:Image source="2d4_png" x="481" y="416"/>
+		<e:Image source="aa3_png" x="68.03" y="354.79"/>
+		<e:Image id="image" source="fdg12_png" x="521.5" y="271.67" anchorOffsetX="108" anchorOffsetY="34.67"/>
+		<e:Image source="gf8_png" x="385.76" y="520.37"/>
+		<e:Image source="df9_png" x="51.94" y="661.18"/>
+		<e:Image source="fds10_png" x="65" y="918.97"/>
+		<e:Image source="sad7_png" x="51.92" y="347.51"/>
+		<e:Image source="s5_png" x="166.47" y="424.79"/>
+		<e:Image source="asd6_png" x="166.47" y="734.21"/>
+		<e:Label text="点击" x="100.28" y="382" textColor="0x1a1a1a" anchorOffsetY="0" height="28.48"/>
+		<e:Label text="“右上角三个点”" x="166.2" y="379" anchorOffsetY="0" height="34.54" anchorOffsetX="0" width="203.94" textColor="0xff2929"/>
+		<e:Label text="点击" x="103.58" y="689.64" textColor="0x1A1A1A" anchorOffsetY="0" height="28.48"/>
+		<e:Label text="“关闭圆圈”" x="169.5" y="686.64" textColor="0xFF2929" anchorOffsetY="0" height="34.54" anchorOffsetX="0" width="203.94"/>
+		<e:Label text="点击我的小程序" x="124.14" y="947.43" textColor="0x1A1A1A" anchorOffsetY="0" height="28.48"/>
+		<e:Label text="开启游戏" x="95.35" y="988.97" textColor="0xFF2929" anchorOffsetY="0" height="38.92" anchorOffsetX="0" width="293.69" textAlign="center"/>
+		<e:Label text="点击" x="524" y="551.89" textColor="0x1A1A1A" anchorOffsetY="0" height="28.48"/>
+		<e:Label text="“添加到我的小程序”" x="417.18" y="597.99" textColor="0xFF2929" anchorOffsetY="0" height="33.03" anchorOffsetX="0" width="266.06"/>
+		<e:Label text="礼包球奖励：万能球x1，激光炮x1" x="264" y="159" textColor="0xfffefe" size="36" stroke="3" strokeColor="0x2f52c4" anchorOffsetX="0" width="401" anchorOffsetY="0" height="78" lineSpacing="5"/>
+		<e:Label text="从我的小程序中，进入“全民消球球”，能领取大礼包" x="226" y="1113" anchorOffsetX="0" width="400" anchorOffsetY="0" height="60" textColor="0x1a1a1a" lineSpacing="5"/>
+		<e:Label text="点这里，添加到我的小程序，玩游戏超方便" x="111.28" y="64.56" textColor="0xfffefe" stroke="2" strokeColor="0x000000" size="28"/>
+	</e:Group>
+	<e:Image id="m_close" source="red8_png" top="21" left="22"/>
+</e:Skin>

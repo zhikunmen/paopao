@@ -1,0 +1,42 @@
+{
+	"engineVersion": "5.2.29",
+	"compilerVersion": "5.2.29",
+	"template": {},
+	"target": {
+		"current": "web"
+	},
+	"modules": [
+		{
+			"name": "egret"
+		},
+		{
+			"name": "eui"
+		},
+		{
+			"name": "assetsmanager"
+		},
+		{
+			"name": "tween"
+		},
+		{
+			"name": "game"
+		},
+		{
+			"name": "dragonBones"
+		},
+		{
+			"name": "socket"
+		},
+		{
+			"name": "promise"
+		},
+		{
+			"name": "particle",
+			"path": "libs/particle"
+		},
+		{
+			"path": "libs/GameAnalytics",
+			"name": "GameAnalytics"
+		}
+	]
+}

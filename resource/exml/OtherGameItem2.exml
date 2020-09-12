@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="OtherGameItem2Exml" width="106" height="132" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="m_container" x="55" y="67.37" anchorOffsetX="55" anchorOffsetY="67.37" height="132">
+		<e:Image source="dianjishiwan_png" x="0" y="0" anchorOffsetX="-1" anchorOffsetY="2" visible="false"/>
+		<e:Rect width="103" height="128" y="2" anchorOffsetX="0" anchorOffsetY="0" fillColor="0xffffff" ellipseWidth="20" ellipseHeight="20" horizontalCenter="0.5"/>
+		<e:Image id="m_img" width="90" height="90" x="8" y="13" anchorOffsetX="0" anchorOffsetY="0"/>
+		<e:Label id="m_name" text="ddd" x="2" y="103" anchorOffsetX="0" width="100" anchorOffsetY="0" height="25" size="20" textColor="0x0a0a0c" verticalAlign="middle" textAlign="center"/>
+	</e:Group>
+</e:Skin>

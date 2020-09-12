@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="OtherGameCe" height="1334" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" width="750">
+	<e:Group id="m_ce" right="-473" top="275" touchThrough="true">
+		<e:Image source="ce14.4_png" x="71" y="0" scale9Grid="84,66,2,3" anchorOffsetX="0" width="473" anchorOffsetY="0" height="725.24"/>
+		<e:Group id="m_btn" x="-12" y="70" anchorOffsetX="0" width="92" anchorOffsetY="0" height="93">
+			<e:Image id="m_arrow" source="ce14.2_png" horizontalCenter="9.5" verticalCenter="-2.5" anchorOffsetX="29.2" anchorOffsetY="17"/>
+		</e:Group>
+		<e:Image source="ced_png" x="147.55" y="22.5"/>
+		<e:Label text="热门推荐" x="222.55" y="34" size="24"/>
+		<e:Group width="438" height="552" x="107.15" y="80" anchorOffsetX="0" anchorOffsetY="0">
+			<e:layout>
+			<e:TileLayout verticalGap="20"/>
+			</e:layout>
+			<ns1:OthergameCeItem id="m_item_0" width="-87.38" height="115.84" x="-17" y="7.68" anchorOffsetX="0" anchorOffsetY="0" skinName="OthergameCeItemExml" rotation="359.32"/>
+			<ns1:OthergameCeItem width="98" height="127.4" x="106" y="134" anchorOffsetX="0" anchorOffsetY="0" skinName="OthergameCeItemExml" id="m_item_1"/>
+			<ns1:OthergameCeItem width="98" height="127.4" x="116" y="144" anchorOffsetX="0" anchorOffsetY="0" skinName="OthergameCeItemExml" id="m_item_2"/>
+			<ns1:OthergameCeItem width="98" height="127.4" x="126" y="154" anchorOffsetX="0" anchorOffsetY="0" skinName="OthergameCeItemExml" id="m_item_3"/>
+			<ns1:OthergameCeItem width="98" height="127.4" x="136" y="164" anchorOffsetX="0" anchorOffsetY="0" skinName="OthergameCeItemExml" id="m_item_4"/>
+			<ns1:OthergameCeItem width="98" height="127.4" x="146" y="174" anchorOffsetX="0" anchorOffsetY="0" skinName="OthergameCeItemExml" id="m_item_5"/>
+			<ns1:OthergameCeItem width="98" height="127.4" x="156" y="184" anchorOffsetX="0" anchorOffsetY="0" skinName="OthergameCeItemExml" id="m_item_6"/>
+			<ns1:OthergameCeItem width="98" height="127.4" x="166" y="194" anchorOffsetX="0" anchorOffsetY="0" skinName="OthergameCeItemExml" id="m_item_7"/>
+			<ns1:OthergameCeItem width="98" height="127.4" x="176" y="204" anchorOffsetX="0" anchorOffsetY="0" skinName="OthergameCeItemExml" id="m_item_8"/>
+			<ns1:OthergameCeItem width="98" height="127.4" x="186" y="214" anchorOffsetX="0" anchorOffsetY="0" skinName="OthergameCeItemExml" id="m_item_9"/>
+			<ns1:OthergameCeItem width="98" height="127.4" x="196" y="224" anchorOffsetX="0" anchorOffsetY="0" skinName="OthergameCeItemExml" id="m_item_10"/>
+			<ns1:OthergameCeItem width="98" height="127.4" x="206" y="234" anchorOffsetX="0" anchorOffsetY="0" skinName="OthergameCeItemExml" id="m_item_11"/>
+			<ns1:OthergameCeItem width="98" height="127.4" x="216" y="244" anchorOffsetX="0" anchorOffsetY="0" skinName="OthergameCeItemExml" id="m_item_12"/>
+			<ns1:OthergameCeItem width="98" height="127.4" x="226" y="254" anchorOffsetX="0" anchorOffsetY="0" skinName="OthergameCeItemExml" id="m_item_13"/>
+			<ns1:OthergameCeItem width="98" height="127.4" x="236" y="264" anchorOffsetX="0" anchorOffsetY="0" skinName="OthergameCeItemExml" id="m_item_14"/>
+			<ns1:OthergameCeItem width="98" height="127.4" x="246" y="274" anchorOffsetX="0" anchorOffsetY="0" skinName="OthergameCeItemExml" id="m_item_15"/>
+		</e:Group>
+	</e:Group>
+</e:Skin>

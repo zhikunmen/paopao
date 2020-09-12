@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MallExml" width="755" height="1334" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group y="116" x="15" anchorOffsetY="0" height="877">
+		<e:Image source="7beijing_png" x="6.3" y="6.07" scaleX="1" scaleY="1" scale9Grid="57,140,6,7" anchorOffsetX="0" width="710" anchorOffsetY="0" height="858.12" rotation="359.98"/>
+		<e:Label text="商店" y="32.12" size="50" bold="true" horizontalCenter="0"/>
+	</e:Group>
+	<e:Rect width="664" height="724" x="45.96" y="234" anchorOffsetX="0" anchorOffsetY="0" fillColor="0xffffff" ellipseWidth="30" ellipseHeight="30"/>
+	<e:Scroller id="m_container" width="664.91" y="234" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0" scrollPolicyH="off" scrollPolicyV="auto" height="703.03" scaleX="0.97">
+		<e:Group id="m_list_container" anchorOffsetX="0" width="632.91" x="2" y="0" anchorOffsetY="0" height="705.03">
+		<e:layout>
+			<e:TileLayout horizontalGap="0" horizontalAlign="center" rowAlign="justifyUsingGap" columnAlign="justifyUsingGap" paddingTop="20"/>
+		</e:layout>
+		</e:Group>
+	</e:Scroller>
+	<e:Label id="m_close" text="返回" y="1004.85" horizontalCenter="0.5" x="273" scaleX="1" scaleY="1"/>
+	<e:Group x="42.96" y="24">
+		<e:Image source="jinbikuan_png" x="0" y="4" scale9Grid="79,6,5,36" anchorOffsetX="0" width="205"/>
+		<e:Image source="jinbi_png" x="3" y="2"/>
+		<e:Label id="m_coin" text="100" y="0" size="40" x="64.04" anchorOffsetX="0" width="274" anchorOffsetY="0" height="52" verticalAlign="middle"/>
+	</e:Group>
+	<e:Group id="m_ad_pos" width="618.18" height="81.82" x="67.35" y="1048.25" anchorOffsetX="0" anchorOffsetY="0"/>
+</e:Skin>

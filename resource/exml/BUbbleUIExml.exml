@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BUbbleUIExml" width="68" height="68" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:tween="egret.tween.*">
+	<w:Declarations>
+		<tween:TweenGroup id="g">
+			<tween:TweenItem target="{image}">
+				<tween:Set/>
+				<tween:To duration="1000">
+					<tween:props>
+						<e:Object scaleX="{0.1}" scaleY="{0.1}"/>
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+		</tween:TweenGroup>
+	</w:Declarations>
+</e:Skin>

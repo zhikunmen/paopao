@@ -1,0 +1,13 @@
+{
+  "appId": "10115540993560001015",
+  "battleType": 1,
+  "category": 2,
+  "icon": "/res/image/icon.png",
+  "language": "en",
+  "name": "BUBBLE SHOOTER",
+  "orientation": "portrait",
+  "package": "com.company.unit.runtime.minigame.gmbox360",
+  "palyerCount": 2,
+  "versionCode": 85,
+  "versionName": "1.0"
+}

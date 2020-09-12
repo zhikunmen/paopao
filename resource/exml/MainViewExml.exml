@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="NewFile" width="750" height="1334" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<e:Group width="100%" height="100%" x="0" y="0"/>
+
+
+	<e:Image id="m_ball_0" source="ball_0_png" horizontalCenter="0" y="891" visible="false"/>
+	<e:Image id="m_ball_1" source="ball_1_png" y="989.52" anchorOffsetX="26.4" anchorOffsetY="26.4" x="328" width="52.800000000000004" height="52.8" visible="false"/>
+	<e:Group id="m_top_cotainer" x="0" top="0" height="235.97" anchorOffsetY="0" anchorOffsetX="0" width="750.3">
+
+		<e:Image source="4_png" x="60.6" verticalCenter="0" visible="false"/>
+
+		<e:Image source="cloud_png" x="0" scaleX="1" scaleY="1" verticalCenter="-150.985"/>
+
+
+		<e:Image source="usernamebanner_png" x="399.7" y="74.68" visible="false"/>
+		<e:Image source="opp-score_png" x="458.5" y="147.3" visible="false"/>
+		<e:Image source="self-score_png" x="11" y="147.3" visible="false"/>
+		<e:Image source="usernamebanner_png" x="134" y="72" visible="false"/>
+		<e:Label id="m_score_txt" text="0" x="120.4" y="159" anchorOffsetX="0" width="145" textAlign="center" visible="false"/>
+
+		<e:Label id="m_guest_nick" text="Label" x="414.89" y="81" anchorOffsetX="0" width="189" textAlign="center" anchorOffsetY="0" height="30" visible="false"/>
+		<e:Label text="host" x="19.68" y="160" anchorOffsetX="0" width="87.67" anchorOffsetY="0" height="27.33" size="20" textAlign="center" visible="false"/>
+		<e:Label text="guest" x="634.22" y="160" anchorOffsetX="0" width="87.67" anchorOffsetY="0" height="27.33" size="20" textAlign="center" visible="false"/>
+		<e:Label id="m_oppScore" text="0" x="478.57" y="159" anchorOffsetX="0" width="145" textAlign="center" visible="false"/>
+		<e:Label id="m_host_nick" text="Label" x="175" y="80" anchorOffsetX="0" width="178.33" textAlign="center" anchorOffsetY="0" height="31.33" locked="true" visible="false"/>
+		<e:BitmapLabel id="m_timeout" width="167.75" height="50.3" anchorOffsetX="0" anchorOffsetY="0" text="120" verticalAlign="middle" textAlign="center" y="147.3" font="score_fnt" x="290.13" scaleX="1" scaleY="1"/>
+		<e:Group width="22" height="19" x="138.9" y="93" anchorOffsetX="0" anchorOffsetY="0" visible="false">
+			<e:Image id="m_host_avator" source="avatardefault_png" x="0" y="0" width="54" height="54" scaleX="1" scaleY="1" anchorOffsetX="27" anchorOffsetY="27"/>
+			<e:Rect id="m_host_avator_mask" width="54" height="54" x="0" y="0" ellipseWidth="54" ellipseHeight="54" fillColor="0xcec2c2" scaleX="1" scaleY="1" anchorOffsetX="27" anchorOffsetY="27"/>
+			<e:Image source="avatar_bg_png" x="0" y="0" anchorOffsetX="29" anchorOffsetY="29"/>
+		</e:Group>
+		<e:Group width="22" height="19" x="628.9" y="93" anchorOffsetX="0" anchorOffsetY="0" visible="false">
+			<e:Image id="m_guest_avator" source="avatardefault_png" x="0" y="0" width="54" height="54" scaleX="1" scaleY="1" anchorOffsetX="27" anchorOffsetY="27"/>
+			<e:Rect id="m_guest_avator_mask" width="54" height="54" x="0" y="0" ellipseWidth="54" ellipseHeight="54" fillColor="0xCEC2C2" scaleX="1" scaleY="1" anchorOffsetX="27" anchorOffsetY="27"/>
+			<e:Image source="avatar_bg_png" x="0" y="0" anchorOffsetX="29" anchorOffsetY="29"/>
+		</e:Group>
+
+
+
+
+	</e:Group>
+	<e:Image id="m_prop_boom_btn" source="prop_zhadan_png" x="18.5" y="1159" visible="false"/>
+	<e:Image id="m_prop_tonghang_btn" source="prop_xiaohang_png" x="656.5" y="1060" visible="false"/>
+	<e:Group id="m_control_panel" y="1057.5" width="750" x="0" touchEnabled="false" touchThrough="true">
+	</e:Group>
+	<e:Group id="m_top_container" width="100%" height="100%" x="0" y="0" touchThrough="true">
+		<ns1:PropBtnView id="m_prop_xiaohang_btn" anchorOffsetX="0" anchorOffsetY="0" skinName="PropBtnExml" scaleX="1" scaleY="1" x="54" y="1175"/>
+		<ns1:PropBtnView id="m_prop_rainbow_btn" anchorOffsetX="0" anchorOffsetY="0" skinName="PropBtnExml" scaleX="1" scaleY="1" y="1177" x="516"/>
+		<ns1:PropBtnView id="m_prop_laser_btn" anchorOffsetX="0" anchorOffsetY="0" skinName="PropBtnExml" scaleX="1" scaleY="1" x="624" y="1177"/>
+		<e:Label id="m_addrow_left_label" text="0" x="340" y="1186.33" textAlign="center" anchorOffsetX="0" width="67.67" anchorOffsetY="0" height="28.67" touchEnabled="false" size="30" bold="true" visible="false"/>
+
+		<e:Image id="m_line" source="line_png" x="376.67" y="1024.85" anchorOffsetX="376.67" anchorOffsetY="20.67"/>
+		<e:Image source="prepareBg_1_png" x="245.91" y="1206.14" anchorOffsetX="51.51" anchorOffsetY="90.91" visible="false"/>
+		<e:Group id="m_rabbit" width="103.87" height="181.2" x="310" y="1280" rotation="359.79" anchorOffsetX="52.92" anchorOffsetY="114.07"/>
+
+		<e:Button id="m_refresh_prepare_btn" label="" x="463.56" y="1256.36" anchorOffsetX="22" anchorOffsetY="23.34">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="refresh_prepare_png" source.down="refresh_prepare_png" source.disabled="refresh_prepare_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+
+
+
+
+	</e:Group>
+
+	<e:Label id="m_ddd" text="0" x="448" y="903" visible="false"/>
+	<e:Label id="wait_tips" text="Waiting to your opponet" horizontalCenter="0" verticalCenter="0" visible="false"/>
+
+	<e:Image id="prepareBg" source="prepareBg_png" y="1177" anchorOffsetX="54.5" anchorOffsetY="108" x="379.5" touchEnabled="false"/>
+	<e:Group id="m_prepare" height="100%" x="0" y="0" width="100%" touchEnabled="false" touchThrough="true" touchChildren="false">
+
+	</e:Group>
+	<e:Image id="m_prepare_front" source="prepareBg-front_png" x="379.5" y="1177" scaleX="1" scaleY="1" anchorOffsetX="54.5" anchorOffsetY="108" touchEnabled="false"/>
+</e:Skin>

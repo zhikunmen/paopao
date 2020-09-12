@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="PauseExml" width="750" height="1334" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="bg_jpg" horizontalCenter="0" verticalCenter="0" locked="true"/>
+	<e:Image source="dawaikuang_png" x="54" y="144" anchorOffsetY="0" height="553" locked="true"/>
+	<e:Image source="baiwanren_png" y="86.3" horizontalCenter="0"/>
+	<e:Group width="612.13" height="500" x="69.45" y="160.12" anchorOffsetX="0" anchorOffsetY="0">
+		<ns1:OtherGameItem id="othergameitem_5" xmlns:ns1="*" width="198.79" height="213.94" x="43" y="58" anchorOffsetX="0" anchorOffsetY="0" skinName="OtherGameExml"/>
+		<ns1:OtherGameItem xmlns:ns1="*" width="198.79" height="213.94" x="53" y="68" anchorOffsetX="0" anchorOffsetY="0" skinName="OtherGameExml" id="othergameitem_0"/>
+		<ns1:OtherGameItem xmlns:ns1="*" width="198.79" height="213.94" x="63" y="78" anchorOffsetX="0" anchorOffsetY="0" skinName="OtherGameExml" id="othergameitem_1"/>
+		<ns1:OtherGameItem xmlns:ns1="*" width="198.79" height="213.94" x="73" y="88" anchorOffsetX="0" anchorOffsetY="0" skinName="OtherGameExml" id="othergameitem_2"/>
+		<ns1:OtherGameItem xmlns:ns1="*" width="198.79" height="213.94" x="83" y="98" anchorOffsetX="0" anchorOffsetY="0" skinName="OtherGameExml" id="othergameitem_3"/>
+		<ns1:OtherGameItem xmlns:ns1="*" width="198.79" height="213.94" x="93" y="108" anchorOffsetX="0" anchorOffsetY="0" skinName="OtherGameExml" id="othergameitem_4"/>
+		<e:layout>
+		<e:TileLayout verticalGap="61" horizontalGap="5" rowHeight="202"/>
+		</e:layout>
+	</e:Group>
+	<e:BitmapLabel id="m_score_txt" width="977.58" height="274.86" anchorOffsetX="0" anchorOffsetY="0" text="0" verticalAlign="middle" textAlign="center" font="reborn_countdown_fnt" scaleX="0.4" scaleY="0.4" y="847" horizontalCenter="0"/>
+	<e:Image source="pause_txt_png" horizontalCenter="0" y="719"/>
+	<e:Group id="m_bottom_group" horizontalCenter="16" y="980" anchorOffsetX="0" width="689.85">
+		<e:Button id="m_goon_btn" label="" x="332.18" y="57.58" anchorOffsetX="187.88" anchorOffsetY="57.58">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="btn_green_png" source.down="btn_green_png" source.disabled="btn_green_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="m_refresh_btn" label="" x="580.39" y="64.55" anchorOffsetX="59.09" anchorOffsetY="54.55">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="refresh_btn_png" source.down="refresh_btn_png" source.disabled="refresh_btn_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="m_home_btn" label="" x="86.36" y="66.06" anchorOffsetX="56.06" anchorOffsetY="56.06">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="home_btn_png" source.down="home_btn_png" source.disabled="home_btn_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Image source="goon_btn_png" x="193" y="25.42" touchEnabled="false"/>
+	</e:Group>
+	<e:Group id="m_ad_pos" width="618.18" height="81.82" x="63.86" y="1097.64" anchorOffsetX="0" anchorOffsetY="0"/>
+</e:Skin>

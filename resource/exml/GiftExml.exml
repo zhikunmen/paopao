@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GiftExml" width="750" height="1334" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:tween="egret.tween.*">
+	<w:Declarations>
+		<tween:TweenGroup id="g1">
+			<tween:TweenItem target="{image}">
+				<tween:Set/>
+				<tween:To duration="150">
+					<tween:props>
+						<e:Object rotation="{10.71}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="200">
+					<tween:props>
+						<e:Object rotation="{15}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="150">
+					<tween:props>
+						<e:Object rotation="{-15}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="150">
+					<tween:props>
+						<e:Object rotation="{12}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="150">
+					<tween:props>
+						<e:Object rotation="{-8}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="150">
+					<tween:props>
+						<e:Object rotation="{5}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="150">
+					<tween:props>
+						<e:Object rotation="{0}"/>
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+		</tween:TweenGroup>
+		<tween:TweenGroup id="g">
+			<tween:TweenItem target="{m_gift_img}">
+				<tween:Set>
+					<tween:props>
+						<e:Object scaleX="{0.9}" scaleY="{1.1}"/>
+					</tween:props>
+				</tween:Set>
+				<tween:To duration="150">
+					<tween:props>
+						<e:Object scaleX="{1.1}" scaleY="{0.9}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="150">
+					<tween:props>
+						<e:Object scaleX="{0.99}" scaleY="{1.01}" y="{650}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="200">
+					<tween:props>
+						<e:Object scaleX="{0.95}" scaleY="{1.05}" y="{640}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="250">
+					<tween:props>
+						<e:Object scaleX="{1}" scaleY="{1}" y="{659.21}"/>
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+		</tween:TweenGroup>
+		<tween:TweenGroup id="g2">
+			<tween:TweenItem target="{m_prop_img}">
+				<tween:Set>
+					<tween:props>
+						<e:Object y="{600}"/>
+					</tween:props>
+				</tween:Set>
+				<tween:To duration="1300">
+					<tween:props>
+						<e:Object y="{320}"/>
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+		</tween:TweenGroup>
+	</w:Declarations>
+
+	<e:Image id="m_prop_img" source="prop_rainbow_png" anchorOffsetX="34.85" anchorOffsetY="34.85" x="375.85" y="379.85"/>
+
+
+
+
+
+
+</e:Skin>

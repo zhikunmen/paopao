@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RebornExml" width="750" height="1334" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<e:Image source="fuhuo_png" y="462.48" horizontalCenter="0"/>
+	<e:Image source="baiwanren_png" y="88.61" horizontalCenter="0"/>
+	<e:Group y="153.16" horizontalCenter="0">
+		<e:Image source="xiaowaikuang_png" x="0" y="0" anchorOffsetY="0" height="307"/>
+		<e:Group x="12.59" y="25.99">
+			<ns1:OtherGameItem id="m_hudao_0" width="201.82" height="223.03" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" skinName="OtherGameExml"/>
+			<ns1:OtherGameItem id="m_hudao_1" width="201.82" height="223.03" x="222.41" y="0" anchorOffsetX="0" anchorOffsetY="0" skinName="OtherGameExml"/>
+			<ns1:OtherGameItem id="m_hudao_2" width="201.82" height="223.03" x="424.23" y="0" anchorOffsetX="0" anchorOffsetY="0" skinName="OtherGameExml"/>
+			<e:layout>
+			<e:HorizontalLayout/>
+			</e:layout>
+		</e:Group>
+	</e:Group>
+	<e:Label id="m_pass_btn" text="点击跳过&gt;&gt;" y="1025.12" horizontalCenter="2"/>
+	<e:Label id="m_left_text" text="还有3次复活机会" y="763" horizontalCenter="0.5"/>
+	<e:Group id="m_shareBtn" y="825.18" horizontalCenter="0.5">
+		<e:Image source="btn_green_png" x="0" y="0"/>
+		<e:Image source="share_reborn_png" x="87.47" y="34.44" touchEnabled="false"/>
+	</e:Group>
+	<e:Group id="m_video_btn" y="810.74" horizontalCenter="0.5" visible="false">
+		<e:Image source="btn_blue_png" x="0" y="12"/>
+		<e:Image source="viedo_reborn_png" x="52" y="40.01" touchEnabled="false"/>
+	</e:Group>
+	<e:BitmapLabel id="n_countdown_txt" width="424" height="184" y="555" anchorOffsetX="0" anchorOffsetY="0" font="reborn_countdown_fnt" text="5" textAlign="center" horizontalCenter="0"/>
+</e:Skin>

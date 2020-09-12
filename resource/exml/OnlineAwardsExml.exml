@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="OnlineAwardsExml" width="104.34" height="179.67" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="jbdjs1_png" x="0" y="0"/>
+	<e:Group id="m_container1" width="106" height="180" y="0" anchorOffsetX="0" anchorOffsetY="0">
+		<e:Image id="m_bg_mask" source="jbdjs2_png" x="52.67" y="150.01" scaleX="1" scaleY="1" anchorOffsetX="52.67" anchorOffsetY="148"/>
+	</e:Group>
+	<e:Image source="jbdjs4_png" x="8.5" y="12"/>
+	<e:Image source="jbdjs3.3_png" x="24.68" y="50.69"/>
+	<e:Group id="m_container" x="14.16" y="39.98" anchorOffsetX="0" anchorOffsetY="0">
+		<e:Image source="jbdjs3.2_png" x="0" y="0"/>
+	</e:Group>
+	<e:Label id="m_count" text="" x="2.66" y="119.98" size="20" verticalAlign="middle" anchorOffsetX="0" width="99.01" textAlign="center" anchorOffsetY="0" height="22"/>
+	<e:Label id="m_timer" text="" x="2.17" y="12" size="20" verticalAlign="middle" textAlign="center" anchorOffsetX="0" width="102" anchorOffsetY="0" height="21.33"/>
+	<e:Label id="m_btn" text="点击领取" x="14" y="154" size="20"/>
+	<e:Image source="jinbi_png" x="30" y="58"/>
+</e:Skin>

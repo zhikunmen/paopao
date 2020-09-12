@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="LuckyTurntableViewExml" width="755" height="1334" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group anchorOffsetY="0" width="755" height="1438" y="-140" x="0">
+		<e:Image source="lucl3.5_png" x="187.66" y="784.5"/>
+		<e:Group id="zhizhenGroup" width="666" height="666" y="570.44" scaleX="1" scaleY="1" anchorOffsetX="333" anchorOffsetY="333" x="385">
+			<e:Image horizontalCenter="0" verticalCenter="0" source="lucl3.4_png" width="666" height="666" anchorOffsetX="333" anchorOffsetY="333"/>
+			<e:Image y="333" source="lucl3.3_png" anchorOffsetX="259" anchorOffsetY="259" x="333"/>
+			<e:Group id="zhuanpanGroup" height="518" x="333" y="333" anchorOffsetX="259" anchorOffsetY="259" touchThrough="true" touchEnabled="false" touchChildren="false" scaleX="1" scaleY="1" width="518">
+				<e:Group width="50" height="50" x="259" y="259" scaleX="1" scaleY="1" rotation="0" anchorOffsetX="25" anchorOffsetY="194">
+				<e:Image id="Group0" horizontalCenter="0" verticalCenter="0" source=""/>
+				</e:Group>
+				<e:Group width="50" height="50" x="259" y="259" scaleX="1" scaleY="1" rotation="45" anchorOffsetX="25" anchorOffsetY="194">
+					<e:Image id="Group1" horizontalCenter="3.5" verticalCenter="0.5" source=""/>
+				</e:Group>
+				<e:Group width="50" height="50" x="259" y="259" scaleX="1" scaleY="1" rotation="90" anchorOffsetX="25" anchorOffsetY="194">
+					<e:Image id="Group2" horizontalCenter="0" verticalCenter="0" source=""/>
+				</e:Group>
+				<e:Group width="50" height="50" x="259" y="259" scaleX="1" scaleY="1" rotation="135" anchorOffsetX="25" anchorOffsetY="194">
+					<e:Image id="Group3" horizontalCenter="0" verticalCenter="0" source=""/>
+				</e:Group>
+				<e:Group width="50" height="50" x="259" y="259" scaleX="1" scaleY="1" rotation="180" anchorOffsetX="25" anchorOffsetY="194">
+					<e:Image id="Group4" horizontalCenter="0" verticalCenter="0" source=""/>
+				</e:Group>
+				<e:Group width="50" height="50" x="259" y="259" scaleX="1" scaleY="1" rotation="225" anchorOffsetX="25" anchorOffsetY="194">
+					<e:Image id="Group5" horizontalCenter="0" verticalCenter="0" source=""/>
+				</e:Group>
+				<e:Group width="50" height="50" x="259" y="259" scaleX="1" scaleY="1" rotation="270" anchorOffsetX="25" anchorOffsetY="194">
+					<e:Image id="Group6" horizontalCenter="0" verticalCenter="0" source=""/>
+				</e:Group>
+				<e:Group width="50" height="50" x="259" y="259" scaleX="1" scaleY="1" rotation="315" anchorOffsetX="25" anchorOffsetY="194">
+					<e:Image id="Group7" horizontalCenter="0" verticalCenter="0" source=""/>
+				</e:Group>
+			</e:Group>
+		</e:Group>
+		<e:Group x="207" y="780">
+			<e:Button id="plus_share_Btn" label="" x="150.68" y="45.45" scaleX="1" scaleY="1" anchorOffsetX="150" anchorOffsetY="45.45">
+				<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="play_dilal_add_btn_02_png" source.down="play_dilal_add_btn_02_png" source.disabled="play_dilal_add_btn_02_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Button id="plus_video_Btn" label="" x="148.48" y="42.42" scaleX="1" scaleY="1" anchorOffsetX="148.48" anchorOffsetY="42.42">
+				<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="play_dilal_add_btn_png" source.down="play_dilal_add_btn_png" source.disabled="play_dilal_add_btn_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Button id="stopBtn" label="" x="147.65" y="43.94" anchorOffsetX="146.97" anchorOffsetY="43.94">
+				<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="play_dilal_stop_btn_png" source.down="play_dilal_stop_btn_png" source.disabled="play_dilal_stop_btn_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+				</e:skinName>
+			</e:Button>
+		</e:Group>
+		<e:Label id="m_lefttime_label" text="剩余次数： 3" x="229.88" y="954.45" anchorOffsetX="0" width="301.27" anchorOffsetY="0" height="46.67" textAlign="center" verticalAlign="middle" size="36" stroke="3" strokeColor="0x2f5286"/>
+		<e:Image source="lucl3.1_png" x="315.5" y="500.94"/>
+		<e:Image id="m_add_btn" source="lucl3.6_png" x="525.98" y="948.79"/>
+		<e:Image id="m_start_btn" x="378.79" y="1144" anchorOffsetX="114" anchorOffsetY="108" source="lucl3.7_png"/>
+		<e:Image id="m_video_icon" source="prop_video_icon_png" x="360" y="1158"/>
+		<e:Image id="zhizhen" x="414.36" y="206.68" anchorOffsetX="62.36" anchorOffsetY="70.24" source="lucl2_png" scaleX="1" scaleY="1"/>
+	</e:Group>
+	<e:Label id="m_close" text="返回" y="1102" horizontalCenter="0"/>
+	<e:Group id="m_ad_pos" width="618.18" height="81.82" x="63.86" y="1146.25" anchorOffsetX="0" anchorOffsetY="0"/>
+</e:Skin>

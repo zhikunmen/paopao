@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RedBagMallItemExml" width="310" height="347" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="red12_png" x="0" y="0"/>
+	<e:Label id="m_limit_text" text="限购5" x="9" y="18" anchorOffsetX="0" width="227.76" anchorOffsetY="0" height="43.82" verticalAlign="middle"/>
+	<e:Image id="m_prop" source="zhiji_png" horizontalCenter="0" verticalCenter="-40" anchorOffsetX="66.67" anchorOffsetY="54.67"/>
+	<e:Image source="1red0_png" x="73.55" y="198.34" anchorOffsetX="0" width="34.88" anchorOffsetY="0" height="42.34"/>
+	<e:Image id="m_hot" source="red14_png" x="239.52" y="5.15"/>
+	<e:Image id="m_btn" source="red13_png" x="160.58" y="286.47" anchorOffsetX="116" anchorOffsetY="32"/>
+	<e:Label id="m_count" text="Label" x="113.97" y="198" anchorOffsetX="0" width="122.5" anchorOffsetY="0" height="43.64" verticalAlign="middle" textColor="0x63A7E7" size="36" textAlign="center"/>
+</e:Skin>

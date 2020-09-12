@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MallItemExml" width="298" height="332" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="wupindi_png" x="0" y="-0.35" scale9Grid="38,39,2,2" anchorOffsetX="0" width="297.71" anchorOffsetY="0" height="331"/>
+	<e:Image source="jinbidikuan_png" x="87" y="170"/>
+	<e:Image id="m_prop" horizontalCenter="-14.5" verticalCenter="-64.5" anchorOffsetX="36.67" anchorOffsetY="36.67" source="prop_xiaohang_png"/>
+	<e:Group id="m_btn" x="61.5" y="239.47">
+		<e:Image source="btn_green_png" x="0" y="0" anchorOffsetX="0" width="193" anchorOffsetY="0" height="67.07" rotation="360"/>
+		<e:Image x="94.5" y="34.03" anchorOffsetX="43" anchorOffsetY="22" source="mallgoumai_png"/>
+	</e:Group>
+	<e:Label id="m_count" text="20" x="118" y="172.36" anchorOffsetX="0" width="116.5" anchorOffsetY="0" height="43.64" verticalAlign="middle" size="30" textAlign="center" textColor="0xffffff"/>
+	<e:Image source="jinbi_png" x="68" y="168"/>
+	<e:Label text="x1" x="177.85" y="113.8" textColor="0x427bc6" size="29"/>
+</e:Skin>

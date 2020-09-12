@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RedBagMallExml" width="750" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" height="1334">
+	<e:Image source="bg_jpg" horizontalCenter="0" verticalCenter="0" locked="true"/>
+	<e:Group top="116" left="15">
+		<e:Image id="m_close" source="red8_png" x="0" y="0"/>
+		<e:Image source="red9_png" x="134.15" y="23.45"/>
+		<e:Group x="358.15" y="8.4">
+			<e:Group x="25.7" y="0">
+			<e:Image source="1333_png" x="0" y="0"/>
+			<e:Image source="1333_png" x="178" y="16.06" scaleX="-1"/>
+			<e:layout>
+				<e:HorizontalLayout gap="0"/>
+			</e:layout>
+			</e:Group>
+			<e:Image source="1red0_png" x="15.15" y="16.05"/>
+			<e:Label id="m_total" text="100" x="47.97" y="2" anchorOffsetX="0" width="138" anchorOffsetY="0" height="76.29" verticalAlign="middle" size="36" textAlign="center"/>
+		</e:Group>
+	</e:Group>
+	<e:Scroller id="m_container" width="664.91" y="234" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0.5" scrollPolicyH="off" scrollPolicyV="auto">
+		<e:Group id="m_list_container" anchorOffsetX="0" width="649.76" x="-38" y="0" anchorOffsetY="0" height="1193">
+			<e:layout>
+				<e:TileLayout horizontalGap="3" horizontalAlign="center" rowAlign="justifyUsingGap" columnAlign="justifyUsingGap"/>
+			</e:layout>
+		</e:Group>
+	</e:Scroller>
+</e:Skin>

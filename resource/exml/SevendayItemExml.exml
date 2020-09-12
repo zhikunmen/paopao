@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="SevendayItemExml" width="634" height="143" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group y="0" anchorOffsetX="0" width="634" x="0" height="100%">
+		<e:Rect width="100%" height="100%" x="1" y="0" anchorOffsetX="0" anchorOffsetY="0" fillColor="0xffffff" ellipseWidth="30" ellipseHeight="30"/>
+		<e:Group id="m_btn_get" x="448.75" y="59.81">
+			<e:Image source="btn_green_png" x="0" y="0" anchorOffsetX="0" width="185.25" anchorOffsetY="0" height="64.37"/>
+			<e:Image source="sevenday1.2_png" x="19.63" y="10.22"/>
+		</e:Group>
+		<e:Group id="m_btn_go" x="339" y="72">
+			<e:Image source="btn_blue_png" x="111.38" y="-12.19" anchorOffsetX="0" width="185.25" anchorOffsetY="0" height="64.37" rotation="360"/>
+			<e:Image source="sevenday1_png" x="131.5" y="-2"/>
+		</e:Group>
+		<e:Image id="m_btn_geted" source="sevenday1.3_png" x="482.5" y="68.03" visible="false"/>
+		<e:ProgressBar id="m_progressbar" width="218.64" height="27.06" x="97.36" y="96" anchorOffsetX="0" anchorOffsetY="0" value="50"/>
+		<e:Label id="m_title" text="使用任意一个道具" x="23.5" y="39.26" size="28" textColor="0x417CC9" bold="true" anchorOffsetX="0" width="288" anchorOffsetY="0" height="32"/>
+		<e:Label text="进度" x="23.5" y="96" size="28" textColor="0x417CC9" bold="true"/>
+		<e:Group x="355.5" y="42">
+			<e:Image source="jinbi_png" y="9" horizontalCenter="0.5"/>
+			<e:Label id="m_coin" text="x1200" y="66" strokeColor="0x467db2" stroke="3" size="25" anchorOffsetX="35" anchorOffsetY="13" horizontalCenter="0"/>
+		</e:Group>
+		<e:layout>
+		<e:BasicLayout/>
+		</e:layout>
+	</e:Group>
+</e:Skin>

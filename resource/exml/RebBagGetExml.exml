@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RebBagGetExml" width="750" height="1334" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group x="66" y="264.5">
+		<e:Image source="xxxx25_png" scale9Grid="176,74,11,8" anchorOffsetX="0" width="694" anchorOffsetY="0" height="559" scaleX="0.85" horizontalCenter="0" verticalCenter="-185.5"/>
+		<e:Image source="1_jpg" y="130.07" anchorOffsetX="0" width="534.36" anchorOffsetY="0" height="249.57" horizontalCenter="0"/>
+		<e:Image source="red1_png" y="264.6" x="310" anchorOffsetX="112" anchorOffsetY="112"/>
+		<e:Image id="nm_getBtn" source="red3_png" x="307.45" y="507.81" anchorOffsetX="45.45" anchorOffsetY="21.21"/>
+		<e:Label id="m_count" text="福券X00" y="396.6" textColor="0xf7577d" anchorOffsetX="0" anchorOffsetY="0" height="62" verticalAlign="middle" textAlign="center" size="48" x="218"/>
+		<e:Group id="m_close" x="311.2" y="739.23" anchorOffsetX="190.91" anchorOffsetY="66.67">
+			<e:Image source="btn_green_png" x="0" y="0" locked="true"/>
+			<e:Image source="red4_png" x="133" y="35.5" locked="true"/>
+		</e:Group>
+		<e:Label text="游戏中连消有机会获得福券" x="42.5" y="610" anchorOffsetX="0" width="534" anchorOffsetY="0" height="50" textColor="0xFFFFFF" size="36" stroke="3" strokeColor="0x386BB0" verticalAlign="middle" textAlign="center"/>
+		<e:Group y="-20.6" horizontalCenter="0">
+			<e:Image source="xxxx32_png" y="-16" scale9Grid="58,38,8,2" anchorOffsetX="0" width="363.66" anchorOffsetY="0" height="100.36" x="0"/>
+			<e:Label text="获得福券" size="45" verticalAlign="middle" horizontalCenter="0" verticalCenter="-8"/>
+		</e:Group>
+	</e:Group>
+</e:Skin>
