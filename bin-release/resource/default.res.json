@@ -494,7 +494,7 @@
 		},
 		{
 			"name":"other_json",
-			"subkeys":"4,5,6,avatardefault,defen,game_guanggao_weizhong,game_guanggao_xuanzhong,line,pause_txt,prepareBg,prepareBg-front,prepareBg_1,prompt_bg1,prop_lock,prop_zhadan,propboomP,proplaserP,propranbowP,propraserLine,propselected,proptonghangP,reborn_txt,refresh_prepare",
+			"subkeys":"4_png,5_png,6_png,avatardefault_png,defen_png,game_guanggao_weizhong_png,game_guanggao_xuanzhong_png,line_png,pause_txt_png,prepareBg-front_png,prepareBg_1_png,prepareBg_png,prompt_bg1_png,prop_lock_png,prop_zhadan_png,propboomP_png,proplaserP_png,propranbowP_png,propraserLine_png,propselected_png,proptonghangP_png,reborn_txt_png,refresh_prepare_png",
 			"type":"sheet",
 			"url":"assets/paopao/other/other.json"
 		}
