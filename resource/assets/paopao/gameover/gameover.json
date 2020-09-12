@@ -1,0 +1,16 @@
+{"file":"gameover.png","frames":{
+"aa_png":{"x":1897,"y":139,"w":141,"h":139,"offX":0,"offY":0,"sourceW":141,"sourceH":139},
+"drawbg_png":{"x":570,"y":488,"w":570,"h":502,"offX":0,"offY":0,"sourceW":570,"sourceH":502},
+"drawtext_png":{"x":1754,"y":278,"w":220,"h":54,"offX":20,"offY":2,"sourceW":260,"sourceH":56},
+"drawtitle_png":{"x":1140,"y":502,"w":592,"h":410,"offX":0,"offY":0,"sourceW":592,"sourceH":410},
+"fail_face_png":{"x":1754,"y":0,"w":143,"h":142,"offX":0,"offY":0,"sourceW":143,"sourceH":142},
+"failetext_png":{"x":1754,"y":332,"w":195,"h":46,"offX":31,"offY":2,"sourceW":260,"sourceH":56},
+"failetext1_png":{"x":592,"y":0,"w":592,"h":488,"offX":0,"offY":0,"sourceW":592,"sourceH":488},
+"failetextbg_png":{"x":1184,"y":0,"w":570,"h":502,"offX":0,"offY":0,"sourceW":570,"sourceH":502},
+"gameoverjifen_png":{"x":1754,"y":197,"w":104,"h":28,"offX":19,"offY":12,"sourceW":137,"sourceH":55},
+"gamevoershuzik_png":{"x":1140,"y":912,"w":349,"h":80,"offX":0,"offY":0,"sourceW":349,"sourceH":80},
+"jifenwezi_png":{"x":1754,"y":142,"w":137,"h":55,"offX":0,"offY":0,"sourceW":137,"sourceH":55},
+"winbg_png":{"x":0,"y":488,"w":570,"h":502,"offX":0,"offY":0,"sourceW":570,"sourceH":502},
+"winface_png":{"x":1897,"y":0,"w":141,"h":139,"offX":0,"offY":0,"sourceW":141,"sourceH":139},
+"wintext_png":{"x":1754,"y":378,"w":185,"h":47,"offX":35,"offY":1,"sourceW":260,"sourceH":56},
+"wintitle_png":{"x":0,"y":0,"w":592,"h":488,"offX":0,"offY":0,"sourceW":592,"sourceH":488}}}
